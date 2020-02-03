@@ -1,0 +1,53 @@
+#calc{
+    display: flex;
+}
+
+#numbers{
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows:  50px 50px 50px 50px;
+    display: grid;
+}
+
+#numbers button{
+    background-color: rgb(67, 233, 25);
+}
+
+#base_actions{
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-template-rows:  50px 50px 50px 50px;
+}
+
+#base_actions button{
+    background-color: rgb(255, 23, 23);
+}
+
+#advanced_actions{
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-template-rows:  50px 50px 50px 50px;
+}
+
+#advanced_actions button{
+    background-color: rgb(16, 128, 255);
+}
+
+button{
+    height: 40px;
+    width: 60px;
+    border: none;
+    border-radius: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+input{
+    border: none;
+    width: 550px;
+    background-color: rgb(211, 211, 211);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    border-radius: 6px;
+    margin: 20px 0px;
+}
