@@ -12,14 +12,14 @@
 
     <div id="calc">
         <div id="advanced_actions">
-            <button>sin</button>
-            <button>cos</button>
-            <button>tg</button>
-            <button>ctg</button>
-            <button>a!</button>
-            <button>^</button>
-            <button>Rad</button>
-            <button>Hist</button>
+            <button id="sin">sin</button>
+            <button id="cos">cos</button>
+            <button id="tg">tg</button>
+            <button id="ctg">ctg</button>
+            <button id="fact">a!</button>
+            <button id="pow">^</button>
+            <button id="rad">Rad</button>
+            <button id="hist">Hist</button>
         </div>
         <div id="numbers">
             <button class="number">9</button>
@@ -38,14 +38,21 @@
         <div id="base_actions">
             <button class="base_action">+</button>
             <button class="base_action">-</button>
-            <button class="base_action">/</buttton>
+            <button id="division">/</buttton>
             <button class="base_action">*</button>
             <button id="clear">C</button>
+            <button class="base_action">%</button>
             <button id="equality">=</button>
         </div>
     </div>
     <input type="text" class="textfield" disabled id="result" value="">
+    <div id="histBlock">
+        <div class="histField"></div>
+        <div class="histField"></div>
+        <div class="histField"></div>
+    </div>
     <script src="numbers.js"></script>
     <script src="base.js"></script>
+    <script src="advanced.js"></script>
 </body>
 </html>
